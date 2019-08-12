@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<!-- By Omar yehia -->
+<!-- project on github: https://github.com/omar-yehia/No-Marketplace -->
+
+<head>
+    <title>No Marketplace</title>
+
+	<meta charset="UTF-8">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <!-- Font Awesome Brand-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
+        integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+        integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="jQuery-3.3.1.min.js"></script>
+
+    <!-- Popup script -->
+    <script src="popup.js"></script>
+
+</head>
+
+<body>
+    <div class="card" style="width:18rem;">
+
+        <div class="card-body m-2">
+            <h4 class="card-title"><span class="text-info">Choose the sections you want to</span> <span
+                    class="text-danger font-weight-bold">BLOCK </span><i class="fab fa-facebook-square" style="color:#4267b2"></i></h4>
+            <div class="card-text">
+                <input type="checkbox" id="marketplace" value="marketplace" name="sectionsToBlock">
+                <label for="marketplace">Marketplace</label> <br>
+
+                <input type="checkbox" id="games" value="games" name="sectionsToBlock">
+                <label for="games"> Games</label> <br>
+
+                <input type="checkbox" id="stories" value="stories" name="sectionsToBlock">
+                <label for="stories">Stories</label> <br>
+
+                <input type="checkbox" id="eventsReminder" value="eventsReminder" name="sectionsToBlock">
+                <label for="eventsReminder"> Events Reminder</label> <br>
+
+                <input type="checkbox" id="peopleRequestsOrYouMayKnow" value="peopleRequestsOrYouMayKnow"
+                    name="sectionsToBlock">
+                <label for="peopleRequestsOrYouMayKnow"> Requests and Suggestions</label> <br>
+            </div>
+
+            <br>
+            <button class="btn btn-success w-100" id="submitButton">Apply</button>
+        </div>
+
+
+    </div>
+
+    <p class="text-muted m-1"> By <a href="http://www.omaryehia.art" target="_blank">Omar Yehia</a></p>
+</body>
+
+</html>
